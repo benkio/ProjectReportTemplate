@@ -26,7 +26,28 @@
 \setlength{\textwidth}{13.5cm}
 \setlength{\textheight}{19cm}
 \setlength{\footskip}{3cm}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{1em}
 
+               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+               %    Reduce Section Spaceing       %
+               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% sudo apt-get install texlive-latex-extra required.
+
+
+%% Save the class definition of \subparagraph
+\let\llncssubparagraph\subparagraph
+%% Provide a definition to \subparagraph to keep titlesec happy
+\let\subparagraph\paragraph
+%% Load titlesec
+\usepackage[compact]{titlesec}
+%% Revert \subparagraph to the llncs definition
+\let\subparagraph\llncssubparagraph
+
+\titlespacing{\section}{0pt}{2ex}{1ex}
+\titlespacing{\subsection}{0pt}{1ex}{0ex}
+\titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
 
                %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
                % Commands inseriti per il template %
@@ -85,9 +106,9 @@
                %    da usare nell'intestazione        %
                %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\xauthA}{Name1 Surname1}
-\newcommand{\xauthB}{Name2 Surname2}
-\newcommand{\xauthC}{Name3 Surname3}
+\newcommand{\xauthA}{Name1 Surename1}
+\newcommand{\xauthB}{Name2 Surename2}
+\newcommand{\xauthC}{Name3 Surename3}
 \newcommand{\xfaculty}{II Faculty of Engineering}
 \newcommand{\xunibo}{Alma Mater Studiorum -- University of Bologna}
 \newcommand{\xaddrBO}{viale Risorgimento 2}
@@ -104,14 +125,14 @@
 %  Inserimento della pagina iniziale   %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Process Report Template}
+\title{Domotic Room  \\ Smart City  \\ Process Report Template}
 
 %%% \author{\xauthA \and \xauthB}
 \author{\xauthA \and \xauthB \and \xauthC}
 
 %
 %%%  \xunibo\\\xaddrCE, \xcityCE\\\email{\{nameA.studentA, nameB.studentB\}@studio.unibo.it}
-\institute {  \xunibo\\\xaddrCE, \xcityCE\\\email{\{name1.surname1, name2.surname2, name3.surname3\}@mail.com }}
+\institute {  \xunibo\\\xaddrCE, \xcityCE\\\email{\{name1.surename1, name2.surename2, name3.surename3\}@mail.com }}
 
 \maketitle
 
