@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.21)  6 DEC 2015 14:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.21)  7 DEC 2015 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -419,13 +419,17 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-(./manifest.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box54
+) (./manifest.sty
 File: manifest.sty 2010/03/09 Package for adding categories, terms and keywords
  to llncs style
 \catcount=\count118
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box54
+\ttl@box=\box55
 \beforetitleunit=\skip54
 \aftertitleunit=\skip55
 \ttl@plus=\dimen127
@@ -442,23 +446,23 @@ LaTeX Warning: Unused global option(s):
 (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen132
-\scratchbox=\box55
+\scratchbox=\box56
 \nofMPsegments=\count120
 \nofMParguments=\count121
 \everyMPshowfont=\toks22
@@ -516,49 +520,49 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 137.
+(Font)              <12> on input line 138.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 137.
+(Font)              <8> on input line 138.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 137.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 137.
+(Font)              <6> on input line 138.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 138.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Report.toc)
-\tf@toc=\write3
-\openout3 = `Report.toc'.
-
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Report.toc
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
-]
+])
+\tf@toc=\write3
+\openout3 = `Report.toc'.
+
+
 [3] (./1_Introduction.tex) (./2_Vision.tex) (./3_Goals.tex)
-(./4_Requirements.tex) (./5_Requirements_Analysis.tex)
-(./6_Problem_Analysis.tex) (./7_Work_Plan.tex) (./8_Project.tex)
-(./9_Implementation.tex) (./10_Testing.tex) (./11_Deployment.tex)
-(./12_Maintenance.tex) (./Report.bbl
+(./4_Requirements.tex) (./4a_Hardware_Procurement.tex)
+(./5_Requirements_Analysis.tex) (./6_Problem_Analysis.tex) (./7_Work_Plan.tex)
+(./8_Project.tex) (./9_Implementation.tex) (./10_Testing.tex)
+(./11_Deployment.tex) (./12_Maintenance.tex) (./Report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Overfull \vbox (45.91637pt too high) has occurred while \output is active []
+Overfull \vbox (74.95534pt too high) has occurred while \output is active []
 
 
 [4] (./Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3313 strings out of 495017
- 42050 string characters out of 6181020
- 110515 words of memory out of 5000000
- 6423 multiletter control sequences out of 15000+600000
+ 3377 strings out of 495017
+ 43021 string characters out of 6181020
+ 110860 words of memory out of 5000000
+ 6480 multiletter control sequences out of 15000+600000
  12766 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,4n,43p,232b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,43p,238b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 bx1200.600pk> </home/parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.
 600pk> </home/parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> 
@@ -567,9 +571,9 @@ parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/paralle
 ls/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/parallels/.tex
 mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on Report.pdf (4 pages, 79246 bytes).
+Output written on Report.pdf (4 pages, 77917 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
+ 268 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
