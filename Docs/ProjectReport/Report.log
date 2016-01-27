@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.21)  26 DEC 2015 16:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.21)  27 JAN 2016 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,21 +509,64 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
+(./jsonListing.tex
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count121
+\lst@gtempboxa=\box61
+\lst@token=\toks26
+\lst@length=\count122
+\lst@currlwidth=\dimen129
+\lst@column=\count123
+\lst@pos=\count124
+\lst@lostspace=\dimen130
+\lst@width=\dimen131
+\lst@newlines=\count125
+\lst@lineno=\count126
+\lst@maxwidth=\dimen132
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count127
+\lst@skipnumbers=\count128
+\lst@framebox=\box62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
 (./manifest.sty
 File: manifest.sty 2010/03/09 Package for adding categories, terms and keywords
  to llncs style
-\catcount=\count121
+\catcount=\count129
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box61
+\ttl@box=\box63
 \beforetitleunit=\skip56
 \aftertitleunit=\skip57
-\ttl@plus=\dimen129
-\ttl@minus=\dimen130
-\ttl@toksa=\toks26
-\titlewidth=\dimen131
-\titlewidthlast=\dimen132
-\titlewidthfirst=\dimen133
+\ttl@plus=\dimen133
+\ttl@minus=\dimen134
+\ttl@toksa=\toks27
+\titlewidth=\dimen135
+\titlewidthlast=\dimen136
+\titlewidthfirst=\dimen137
 )
 
 LaTeX Warning: Unused global option(s):
@@ -532,39 +575,40 @@ LaTeX Warning: Unused global option(s):
 (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen134
-\scratchbox=\box62
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen135
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count130
+\scratchdimen=\dimen138
+\scratchbox=\box64
+\nofMPsegments=\count131
+\nofMParguments=\count132
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen139
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
+\everyMPtoPDFconversion=\toks29
 )
+\c@lstlisting=\count136
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 144.
+(Font)              <12> on input line 147.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 144.
+(Font)              <8> on input line 147.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 144.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 144.
+(Font)              <6> on input line 147.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 147.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -594,13 +638,13 @@ Overfull \vbox (74.95534pt too high) has occurred while \output is active []
 
 [4] (./Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3619 strings out of 495017
- 46323 string characters out of 6181020
- 115368 words of memory out of 5000000
- 6702 multiletter control sequences out of 15000+600000
+ 5426 strings out of 495017
+ 70589 string characters out of 6181020
+ 147411 words of memory out of 5000000
+ 8488 multiletter control sequences out of 15000+600000
  12766 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,6n,43p,300b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,6n,43p,300b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 bx1200.600pk> </home/parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.
 600pk> </home/parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> 
@@ -609,7 +653,7 @@ parallels/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/paralle
 ls/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/parallels/.tex
 mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on Report.pdf (4 pages, 77512 bytes).
+Output written on Report.pdf (4 pages, 77589 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
